@@ -1,0 +1,25 @@
+.slider {
+    width: 736px;
+    margin: 0px auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.slider__img {
+    object-fit: contain;
+    width: 640px;
+    height: 360px;
+}
+.slider__paragraph {
+    margin: 0;
+}
+.slider__button {
+    opacity: 0.2;
+    background-color: white;
+    border: 0px white;
+    padding: 0;
+    transition: opacity 1s;
+}
+.slider__button:hover {
+    opacity: 1;
+}

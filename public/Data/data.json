@@ -1,0 +1,48 @@
+{
+    "catalog": [
+      {
+        "img": "../../recources/img/catalogImg/dress.jpg",
+        "altimg": "dress",
+        "title": "Платья",
+        "count": 10
+      },
+      {
+        "img": "../../recources/img/catalogImg/tshirt.jpg",
+        "altimg": "tshirt",
+        "title": "Футболки",
+        "count": 14
+      },
+      {
+        "img": "../../recources/img/catalogImg/pants.jpg",
+        "altimg": "pants",
+        "title": "Брюки",
+        "count": 8
+      },
+      {
+        "img": "../../recources/img/catalogImg/accessories.jpg",
+        "altimg": "accessories",
+        "title": "Аксессуары",
+        "count": 25
+      }
+    ],
+    "slider": [
+      {
+        "img": "https://images.wallpaperscraft.ru/image/single/more_buhta_dno_1103180_1280x720.jpg",
+        "altimg": "bay, vills and sea",
+        "title": "фото предоставлено WallpapersCraft",
+        "autor": "Raita Futo"
+      },
+      {
+        "img": "https://images.wallpaperscraft.ru/image/single/pejzazh_gory_ozero_1104493_1280x720.jpg",
+        "altimg": "mountains, wood and lake",
+        "title": "фото предоставлено WallpapersCraft",
+        "autor": "theilr"
+      },
+      {
+        "img": "https://images.wallpaperscraft.ru/image/single/holmy_pejzazh_more_1104561_1280x720.jpg",
+        "altimg": "sea and vills",
+        "title": "фото предоставлено WallpapersCraft",
+        "autor": "Stéphanie Lavoie"
+      }
+    ]
+  }

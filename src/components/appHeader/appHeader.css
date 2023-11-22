@@ -1,0 +1,23 @@
+header {
+    border-bottom: 2px solid gray;
+}
+.app__header {
+    background-color: white;
+
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.app__logo {
+    margin: 0px;
+    width: 50px;
+    height: 45px;
+    float: left;
+}
