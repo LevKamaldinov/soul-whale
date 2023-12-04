@@ -1,48 +1,312 @@
 {
-    "catalog": [
-      {
-        "img": "../../recources/img/catalogImg/dress.jpg",
-        "altimg": "dress",
-        "title": "Платья",
-        "count": 10
-      },
-      {
-        "img": "../../recources/img/catalogImg/tshirt.jpg",
-        "altimg": "tshirt",
-        "title": "Футболки",
-        "count": 14
-      },
-      {
-        "img": "../../recources/img/catalogImg/pants.jpg",
-        "altimg": "pants",
-        "title": "Брюки",
-        "count": 8
-      },
-      {
-        "img": "../../recources/img/catalogImg/accessories.jpg",
-        "altimg": "accessories",
-        "title": "Аксессуары",
-        "count": 25
-      }
-    ],
-    "slider": [
-      {
-        "img": "https://images.wallpaperscraft.ru/image/single/more_buhta_dno_1103180_1280x720.jpg",
-        "altimg": "bay, vills and sea",
-        "title": "фото предоставлено WallpapersCraft",
-        "autor": "Raita Futo"
-      },
-      {
-        "img": "https://images.wallpaperscraft.ru/image/single/pejzazh_gory_ozero_1104493_1280x720.jpg",
-        "altimg": "mountains, wood and lake",
-        "title": "фото предоставлено WallpapersCraft",
-        "autor": "theilr"
-      },
-      {
-        "img": "https://images.wallpaperscraft.ru/image/single/holmy_pejzazh_more_1104561_1280x720.jpg",
-        "altimg": "sea and vills",
-        "title": "фото предоставлено WallpapersCraft",
-        "autor": "Stéphanie Lavoie"
-      }
-    ]
-  }
+  "catalog": [
+    {
+      "img": "../../recources/img/catalogImg/dress.jpg",
+      "altimg": "dress",
+      "title": "Платья",
+      "count": 10
+    },
+    {
+      "img": "../../recources/img/catalogImg/tshirt.jpg",
+      "altimg": "tshirt",
+      "title": "Футболки",
+      "count": 14
+    },
+    {
+      "img": "../../recources/img/catalogImg/pants.jpg",
+      "altimg": "pants",
+      "title": "Брюки",
+      "count": 8
+    },
+    {
+      "img": "../../recources/img/catalogImg/accessories.jpg",
+      "altimg": "accessories",
+      "title": "Аксессуары",
+      "count": 25
+    }
+  ],
+  "slider": [
+    {
+      "img": "https://images.wallpaperscraft.ru/image/single/more_buhta_dno_1103180_1280x720.jpg",
+      "altimg": "bay, vills and sea",
+      "title": "фото предоставлено WallpapersCraft",
+      "autor": "Raita Futo"
+    },
+    {
+      "img": "https://images.wallpaperscraft.ru/image/single/pejzazh_gory_ozero_1104493_1280x720.jpg",
+      "altimg": "mountains, wood and lake",
+      "title": "фото предоставлено WallpapersCraft",
+      "autor": "theilr"
+    },
+    {
+      "img": "https://images.wallpaperscraft.ru/image/single/holmy_pejzazh_more_1104561_1280x720.jpg",
+      "altimg": "sea and vills",
+      "title": "фото предоставлено WallpapersCraft",
+      "autor": "Stéphanie Lavoie"
+    }
+  ],
+  "dress": [
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье красное",
+      "availability": "Товар в наличии",
+      "size": "XS, S, M, L, XL, XXL",
+      "vendorCode": 1001
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье чёрное",
+      "availability": "Товар в наличии",
+      "size": "XXL",
+      "vendorCode": 1002
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье жёлтое",
+      "availability": "Товар в наличии",
+      "size": "XS, L, XL, XXL",
+      "vendorCode": 1003
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье фиолетовое",
+      "availability": "Товар в наличии",
+      "size": "XS",
+      "vendorCode": 1004
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье бирюзовое",
+      "availability": "Товар в наличии",
+      "size": "XS, XXL",
+      "vendorCode": 1005
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье серое",
+      "availability": "Товар в наличии",
+      "size": "M, L, XL, XXL",
+      "vendorCode": 1006
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье белое",
+      "availability": "Товар отсутствует",
+      "size": "-",
+      "vendorCode": 1007
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "dress",
+      "title": "Платье коралловое",
+      "availability": "Товар в наличии",
+      "size": "XS, S",
+      "vendorCode": 1008
+    }
+  ],
+  "tshirt": [
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка чёрная",
+      "availability": "Товар в наличии",
+      "size": "XS, S, M, L, XL, XXL",
+      "vendorCode": 2001
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка белая",
+      "availability": "Товар в наличии",
+      "size": "XXL",
+      "vendorCode": 2002
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка-безрукавка",
+      "availability": "Товар в наличии",
+      "size": "XS, L, XL, XXL",
+      "vendorCode": 2003
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка синяя",
+      "availability": "Товар в наличии",
+      "size": "XS",
+      "vendorCode": 2004
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка жёлтая",
+      "availability": "Товар в наличии",
+      "size": "XS, XXL",
+      "vendorCode": 2005
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка бежевая",
+      "availability": "Товар в наличии",
+      "size": "M, L, XL, XXL",
+      "vendorCode": 2006
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка 'Львица'",
+      "availability": "Товар отсутствует",
+      "size": "-",
+      "vendorCode": 2007
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "tshirt",
+      "title": "Футболка 'Носорог'",
+      "availability": "Товар в наличии",
+      "size": "XS, S",
+      "vendorCode": 2008
+    }
+  ],
+  "pants": [
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Брюки чёрные приталенные",
+      "availability": "Товар в наличии",
+      "size": "XS, S, M, L, XL, XXL",
+      "vendorCode": 3001
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Джинсы-клёш",
+      "availability": "Товар в наличии",
+      "size": "XXL",
+      "vendorCode": 3002
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Джоггеры",
+      "availability": "Товар в наличии",
+      "size": "XS, L, XL, XXL",
+      "vendorCode": 3003
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Брюки бежевые",
+      "availability": "Товар в наличии",
+      "size": "XS",
+      "vendorCode": 3004
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Брюки летние",
+      "availability": "Товар в наличии",
+      "size": "XS, XXL",
+      "vendorCode": 3005
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Джинсы slim голубые",
+      "availability": "Товар в наличии",
+      "size": "M, L, XL, XXL",
+      "vendorCode": 3006
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Джинсы regular синие",
+      "availability": "Товар отсутствует",
+      "size": "-",
+      "vendorCode": 3007
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "pants",
+      "title": "Брюки коричневые",
+      "availability": "Товар в наличии",
+      "size": "XS, S",
+      "vendorCode": 3008
+    }
+  ],
+  "accessories": [
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Часы",
+      "availability": "Товар в наличии",
+      "size": "Диаметр 40мм",
+      "vendorCode": 4001
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Часы",
+      "availability": "Товар в наличии",
+      "size": "Диаметр 36мм",
+      "vendorCode": 4002
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Серьги",
+      "availability": "Товар в наличии",
+      "size": "Не имеет размера",
+      "vendorCode": 4003
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Бусы",
+      "availability": "Товар в наличии",
+      "size": "Не имеет размера",
+      "vendorCode": 4004
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Сумка-клатч бежевая",
+      "availability": "Товар в наличии",
+      "size": "Не имеет размера",
+      "vendorCode": 4005
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Сумка-клатч чёрная",
+      "availability": "Товар в наличии",
+      "size": "Не имеет размера",
+      "vendorCode": 4006
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Браслет серебряный",
+      "availability": "Товар отсутствует",
+      "size": "-",
+      "vendorCode": 4007
+    },
+    {
+      "img": "../../recources/img/default.png",
+      "altimg": "accessories",
+      "title": "Браслет кожаный",
+      "availability": "Товар в наличии",
+      "size": "Не имеет размера",
+      "vendorCode": 4008
+    }
+  ]
+}

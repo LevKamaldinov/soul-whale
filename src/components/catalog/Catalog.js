@@ -1,5 +1,8 @@
 // import soulWhaleServices from "../../services/services";
+import { Link } from "react-router-dom";
+
 import { useState, useEffect } from "react";
+
 import './catalog.css';
 
 const Catalog = () => {
@@ -15,13 +18,15 @@ const Catalog = () => {
     function renderCatalog(arr) {
         const items = arr.map((item, i) => {
             return (
-                <li 
+                <Link 
+                    to={item.altimg}
                     key={i}
-                    tabIndex={0}>
-                        <img src={`${require(`../../recources/img/catalogImg/${item.altimg}.jpg`)}`} alt={item.alt} height={500} width={500}/>
-                        <a>{item.title}</a>
+                    tabIndex={0}
+                    className="catalogList__li">
+                        <p>{item.title}</p>
+                        <img src={`${require(`../../recources/img/catalogImg/${item.altimg}.jpg`)}`} alt={item.altimg} className="catalogList__img"/>
                         <p>{item.count} позиций</p>
-                </li>
+                </Link>
             )
         })
 

@@ -1,5 +1,5 @@
 .slider {
-    width: 736px;
+    width: 800px;
     margin: 0px auto;
     justify-content: center;
     text-align: center;
@@ -12,6 +12,27 @@
 }
 .slider__paragraph {
     margin: 0;
+}
+.slider__dots {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    bottom: 55px;
+    color: black;
+}
+.slider__dot {
+    background-color: white;
+    opacity: 0.2;
+    width: 30px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 1s;
+}
+.slider__dot:hover {
+    opacity: 1;
 }
 .slider__button {
     opacity: 0.2;

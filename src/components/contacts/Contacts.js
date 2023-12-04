@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet";
 
+import './contacts.css';
+
 const Contacts = () => {
     return (
         <>
@@ -10,20 +12,20 @@ const Contacts = () => {
                 />
                 <title>Контакты</title>
             </Helmet>
-            <div>
+            <div className="contacts">
                 <h2>Контакты</h2>
-                <p>Если вы хотите узнать о нас и нашей продукции больше, вы можете связаться с нами любым удобным способом:</p>
+                <p>Если Вы хотите узнать о нас и нашей продукции больше, Вы можете связаться с нами любым удобным способом:</p>
                 <ul>
-                    <li>
+                    <li className="contacts__li">
                         <a href="#">В сети-которую-нельзя-называть</a>
                     </li>
-                    <li>
+                    <li className="contacts__li">
                         <a href="#">В нашей группе ВКонтакте</a>
                     </li>
-                    <li>
+                    <li className="contacts__li">
                         По электронной почте ...
                     </li>
-                    <li>
+                    <li className="contacts__li">
                         А также в Telegram и WhatsApp по телефону ...
                     </li>
                 </ul>

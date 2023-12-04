@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 
 import Slider from "../slider/Slider";
+import Timer from "../timer/Timer";
 
 const MainPage = () => {
     return (
@@ -13,6 +14,7 @@ const MainPage = () => {
                 <title>SoulWhale главная страница</title>
             </Helmet>
             <Slider/>
+            <Timer time='2023-12-31'/>
         </>
     )
 }

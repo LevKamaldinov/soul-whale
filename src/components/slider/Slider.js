@@ -16,20 +16,13 @@ const Slider = () => {
     }, []);
 
     useEffect(() => {
-        let timerId = setInterval(showAutoNextSlide, 5000);
+        let timerId = setInterval(() => nextSlide(1), 5000);
         return () => {
             clearInterval(timerId);
         }
 
     }, [sliderImg.length, sliderIndex])
 
-    function showAutoNextSlide() {
-        if ((sliderIndex + 1) < slides.length && (sliderIndex + 1) > 0) {
-            setSliderIndex(sliderIndex => sliderIndex + 1);
-        } else {
-            setSliderIndex(sliderIndex => sliderIndex = 0)
-        }
-    }
 
     function nextSlide(number) {
         if ((sliderIndex + number) < slides.length && (sliderIndex + number) > 0) {
@@ -41,6 +34,10 @@ const Slider = () => {
         }
     }
 
+    function showSlide(i) {
+        setSliderIndex(sliderIndex => i);
+    }
+
     const slides = sliderImg.map(img => {
         return (
             <div className="slider__wrapper__img">
@@ -50,7 +47,13 @@ const Slider = () => {
         )
     })
 
+    const dots = sliderImg.map((item, i) => {
+        return (
+            <button key={i} className="slider__dot" onClick={() => showSlide(i)}/>
+        )
+    })
     return (
+        <>
         <div className="slider">
             <button className="slider__button" onClick={() => nextSlide(-1)}>
                 <img src={back} alt="button for show back slider"/>
@@ -62,6 +65,11 @@ const Slider = () => {
                 <img src={next} alt="button for show next slider"/>
             </button>
         </div>
+        <div className="slider__dots">
+            {dots}
+        </div>
+        </>
+
     )
 }
 

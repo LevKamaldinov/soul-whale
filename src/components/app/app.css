@@ -1,3 +1,29 @@
 main {
     background-color: white;
+    font-family: cursive;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+    translate: none;
+    transition: 0.5s;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    color: black;
+}
+a:focus {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+    translate: 0px -5px;
 }

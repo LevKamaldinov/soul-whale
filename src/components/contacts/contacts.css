@@ -1,0 +1,19 @@
+.contacts {
+    text-align: center;
+}
+.contacts > h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;    
+}
+.contacts > p {
+    margin-top: 10px;
+    margin-bottom: 0px;    
+}
+.contacts > ul {
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.contacts__li {
+    list-style-type: none;
+    margin: 10px 0;
+}
