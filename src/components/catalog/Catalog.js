@@ -23,9 +23,9 @@ const Catalog = () => {
                     key={i}
                     tabIndex={0}
                     className="catalogList__li">
-                        <p>{item.title}</p>
+                        <h2>{item.title}</h2>
                         <img src={`${require(`../../recources/img/catalogImg/${item.altimg}.jpg`)}`} alt={item.altimg} className="catalogList__img"/>
-                        <p>{item.count} позиций</p>
+                        {/* <p>{item.count} позиций</p> */}
                 </Link>
             )
         })

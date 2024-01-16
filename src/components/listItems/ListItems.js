@@ -6,7 +6,6 @@ import Filter from "../filter/Filter";
 import soulWhaleServices from "../../services/services";
 
 import './listItems.css';
-import picture from '../../recources/img/default.png'
 
 const ListItems = (props) => {
     const [data, setData] = useState([]);
@@ -33,8 +32,8 @@ const ListItems = (props) => {
             if (filter.availability) {
                 return arr.filter(item => item.availability.includes(filter.availability)); 
             }
-            if (filter.text.length > 0) {
-                return arr.filter(item => item.title.includes(filter.text));
+            if (filter.color.length > 0) {
+                return arr.filter(item => item.color.toLowerCase().includes(filter.color));
             } else {
                 return arr;
             }
@@ -59,10 +58,11 @@ const ListItems = (props) => {
                         key={item.vendorCode}
                         tabIndex={0}
                         className="listItems__li">
-                            <p>{item.title}</p>
-                            <img src={picture} alt={item.altimg} className="listItems__img"/>
-                            <p>{item.availability}</p>
-                            <p>Доступные размеры: {item.size}</p>
+                            <h3>{item.title}</h3>
+                            <img src={`${require(`../../recources/img/${props.name}Img/${item.img}_main.jpg`)}`} alt={item.altimg} className="listItems__img"/>
+                            <p>Цвет: {item.color}</p>
+                            <p>Размеры в наличии: {item.size}</p>
+                            <p>Цена: {item.price}₽</p>
                     </li>
                 </Link>
 
@@ -88,7 +88,12 @@ const ListItems = (props) => {
                 />
                 <title>SoulWhale {props.name}</title>
             </Helmet>
-            <Filter setFilter={setFilter}/>
+            <div className="org__wrapper">
+                <Link to={`/catalog`}>
+                    <button className="back">Назад</button>
+                </Link>
+                <Filter setFilter={setFilter}/>
+            </div>
             {items}
             <div className="wrapper">
                 <button 

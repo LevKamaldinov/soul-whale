@@ -14,21 +14,21 @@ const AppNavigation = () => {
                         Главная
                     </li>
                 </Link>
-                <Link to='about'>
+                <Link to='info'>
                     <li  tabIndex={0} className="menu__item">
-                            О нас
+                        Информация для пкупателей
                     </li>
                 </Link>
                 <Link to='catalog'>
                     <li  tabIndex={0} className="menu__item">
-                            Каталог
+                        Каталог
                     </li>
                 </Link>
-                <Link to='contacts'>
+                {/* <Link to='contacts'>
                     <li  tabIndex={0} className="menu__item">
                         Контакты
                     </li>
-                </Link>
+                </Link> */}
             </ul>
         </div>
     )

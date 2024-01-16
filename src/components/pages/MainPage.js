@@ -14,7 +14,7 @@ const MainPage = () => {
                 <title>SoulWhale главная страница</title>
             </Helmet>
             <Slider/>
-            <Timer time='2023-12-31'/>
+            <Timer time='2024-02-28'/>
         </>
     )
 }

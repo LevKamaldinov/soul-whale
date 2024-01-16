@@ -10,9 +10,6 @@
     width: 640px;
     height: 360px;
 }
-.slider__paragraph {
-    margin: 0;
-}
 .slider__dots {
     text-align: center;
     z-index: 2;

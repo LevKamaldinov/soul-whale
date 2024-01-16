@@ -20,17 +20,17 @@ const App = () => {
                     <main>
                         <Routes>
                             <Route path='/' element={<MainPage/>}/>
-                            <Route path='about' element={<AboutUs/>}/>
+                            <Route path='info' element={<AboutUs/>}/>
                             <Route path='catalog' element={<Catalog/>}/>
-                            <Route path='contacts' element={<Contacts/>}/>
-                            <Route path='catalog/dress' element={<ListItems name='dress'/>}/>
-                            <Route path='catalog/dress/:id' element={<ItemCard name='dress'/>}/>
-                            <Route path='catalog/tshirt' element={<ListItems name='tshirt'/>}/>
-                            <Route path='catalog/tshirt/:id' element={<ItemCard name='tshirt'/>}/>
+                            {/* <Route path='contacts' element={<Contacts/>}/> */}
+                            <Route path='catalog/jackets' element={<ListItems name='jackets'/>}/>
+                            <Route path='catalog/jackets/:id' element={<ItemCard name='jackets'/>}/>
+                            <Route path='catalog/blouses' element={<ListItems name='blouses'/>}/>
+                            <Route path='catalog/blouses/:id' element={<ItemCard name='blouses'/>}/>
                             <Route path='catalog/pants' element={<ListItems name='pants'/>}/>
                             <Route path='catalog/pants/:id' element={<ItemCard name='pants'/>}/>
-                            <Route path='catalog/accessories' element={<ListItems name='accessories'/>}/>
-                            <Route path='catalog/accessories/:id' element={<ItemCard name='accessories'/>}/>
+                            <Route path='catalog/skirts' element={<ListItems name='skirts'/>}/>
+                            <Route path='catalog/skirts/:id' element={<ItemCard name='skirts'/>}/>
                         </Routes>
                     </main>
                     <AppFooter/>

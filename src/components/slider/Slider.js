@@ -38,11 +38,10 @@ const Slider = () => {
         setSliderIndex(sliderIndex => i);
     }
 
-    const slides = sliderImg.map(img => {
+    const slides = sliderImg.map((img, i) => {
         return (
             <div className="slider__wrapper__img">
-                <img src={`${img.img}`} alt={img.altimg} className="slider__img"/>
-                <p className="slider__paragraph">Автор снимка - {img.autor}, {img.title}</p>
+                <img src={`${require(`../../recources/img/sliderImg/sale_${i + 1}.png`)}`} alt={img.altimg} className="slider__img"/>
             </div>
         )
     })

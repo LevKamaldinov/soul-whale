@@ -1,3 +1,7 @@
+.org__wrapper {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
 .listItems__ul {
     display: flex;
     justify-content: space-around;
@@ -8,7 +12,7 @@
 }
 .listItems__li {
     border: 1px solid black;
-    width: 325px;
+    width: 330px;
     margin: 10px 0px;
     transition: all 0.5s ease-in;
 }
@@ -23,8 +27,8 @@
     font-size: medium;
 }
 .listItems__img {
-    width: max-content;
-    height: max-content;
+    width: 330px;
+    height: 440px;
 }
 .wrapper {
     display: flex;
