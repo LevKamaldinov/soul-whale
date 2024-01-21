@@ -80,7 +80,7 @@ h4 {
         max-width: 48px;
     }
     .itemCard__img {
-        width: 350px;
+        max-width: 350px;
         height: 525px;
     }
     h4 {
@@ -102,7 +102,7 @@ h4 {
         max-width: 32px;
     }
     .itemCard__img {
-        width: 250px;
+        max-width: 250px;
         height: 375px;
     }
     h4 {
@@ -117,14 +117,15 @@ h4 {
 @media(max-width: 300px) {
 
     .itemCard__slider {
-        width: 280px;
+        width: 270px;
     }
     .itemCard__slider__dots__img {
         max-width: 32px;
     }
     .itemCard__img {
-        width: 200px;
+        max-width: 210px;
         height: 300px;
+
     }
     h4 {
         font-size: small;
