@@ -10,10 +10,40 @@
 .aboutUs__wrapper > div > p {
     font-size: 20px;
     padding-right: 20px;
+    padding-left: 20px;
     text-align: center;
 }
 .aboutUs__wrapper > div > a, span {
     font-size: 18px;
-    padding-right: 20px;
+    padding-left: 30px;
     text-align: center;
+}
+
+@media(max-width: 450px) {
+    .aboutUs__wrapper {
+        grid-template-columns: 1fr;
+    }
+    h2 {
+        font-size: medium;
+        margin-bottom: 0px;
+    }
+    .aboutUs__wrapper > div > p {
+        font-size: small;
+        margin-bottom: 0px;
+    }
+    .aboutUs__wrapper > div > a, span {
+        font-size: 13px;
+    }
+}
+@media(max-width: 300px) {
+
+    h2 {
+        font-size: small;
+    }
+    .aboutUs__wrapper > div > p {
+        font-size: x-small;
+    }
+    .aboutUs__wrapper > div > a, span {
+        font-size: xx-small;
+    }
 }

@@ -1,4 +1,33 @@
 .filter__form {
-    margin: auto;
+    margin-top: 10px;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.filter__form > label > input {
+    margin-left: 10px;
+}
+
+@media(max-width: 550px) {
+    .filter__form {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+}
+@media(max-width: 450px) {
+    .filter__form > label {
+        font-size: small;
+    }
+    .filter__form > select {
+        font-size: small;
+    }
+}
+@media(max-width: 300px) {
+    .filter__form > label {
+        font-size: x-small;
+    }
+    .filter__form > select {
+        font-size: x-small;
+    }
 }

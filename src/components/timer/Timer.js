@@ -37,7 +37,7 @@ const Timer = (props) => {
 
     return (
         <div className="timer">
-            <h2>Успей до окончания акции! Осталось всего:</h2>
+            <h2>Успей до окончания акции! <br/>Осталось всего:</h2>
             <div className="timer__wrapper">
                 <div className="timer__element">
                     <p>{days}</p> 

@@ -1,6 +1,6 @@
 .slider {
     width: 800px;
-    margin: 0px auto;
+    margin: 10px auto 0px;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -19,7 +19,7 @@
 }
 .slider__dot {
     background-color: white;
-    opacity: 0.2;
+    opacity: 0.3;
     width: 30px;
     height: 10px;
     border: 1px solid;
@@ -32,7 +32,7 @@
     opacity: 1;
 }
 .slider__button {
-    opacity: 0.2;
+    opacity: 0.3;
     background-color: white;
     border: 0px white;
     padding: 0;
@@ -40,4 +40,26 @@
 }
 .slider__button:hover {
     opacity: 1;
+}
+
+@media(max-width: 600px) {
+    .slider__button {
+        display: none;
+    }
+    .slider {
+        width: 100%;
+    }
+    .slider__img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+    .slider__dots {
+        bottom: 30px;
+    }
+}
+@media(max-width: 300px) {
+    .slider__dots {
+        bottom: 20px;
+    }
 }

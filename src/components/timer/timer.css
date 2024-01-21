@@ -1,7 +1,6 @@
 .timer {
     margin-bottom: 20px;
     text-align: center;
-    /* border: 1px solid black; */
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +10,6 @@
 }
 
 .timer__wrapper {
-    width: fit-content;
     display: flex;
     justify-content: space-around;
     margin-left: auto;
@@ -26,4 +24,32 @@
 }
 .timer__element > p {
     margin: 0;
+}
+
+@media(max-width: 700px) {
+    .timer {
+        width: 100%;
+    }
+}
+@media(max-width: 450px) {
+    .timer > h2 {
+        font-size: small;
+    }
+    .timer__wrapper {
+        margin: 0px;
+    }
+    .timer__element {
+        font-size: small;
+        width: 60px;
+        margin: 0px;
+    }
+}
+@media(max-width: 300px) {
+    .timer > h2 {
+        font-size: x-small;
+    }
+    .timer__element {
+        font-size: x-small;
+        width: 45px;
+    }
 }

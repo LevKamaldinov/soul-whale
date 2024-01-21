@@ -66,7 +66,7 @@ const ItemCard = (props) => {
         return (
             <>
                 <Link to={`/catalog/${props.name}`}>
-                    <button className="back">Назад</button>
+                    <button className="itemCard__back">Назад</button>
                 </Link>
                 <div className="itemCard__wrapper">
                     <div className="itemCard__slider">
@@ -94,7 +94,6 @@ const ItemCard = (props) => {
                         <p>Артикул: {item[0].vendorCode}</p>
                     </div>
                 </div>
-
             </>
         )
     }

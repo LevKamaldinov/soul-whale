@@ -1,30 +1,25 @@
 import { Link } from "react-router-dom";
 
-import AppNavigation from "../appNavigation/AppNavigation";
 import './appHeader.css';
-// import logo from '../../recources/img/logoWhale.png'
-import logo from '../../recources/img/logo.jpg'
+import logo from '../../recources/img/Logo.png'
 
 const AppHeader = () => {
     return (
         <header className="app__header">
             <Link to='info'>
-                Информация для пoкупателей
+                Полезная информация
             </Link>
-            <h1>
-                <Link to='/'>
+            <Link to='/'>
+                <h1>
                     <figure className="app__logo">
                         <img src={logo} alt='logoWhale' className="app__logo"></img>
                     </figure>
-                </Link>
-                <span>SoulWhale</span>
-            </h1>
+                    SoulWhale
+                </h1>
+            </Link>
             <Link to='catalog'>
                 Каталог
             </Link>
-            {/* <nav className="app__menu">
-                <AppNavigation/>
-            </nav> */}
     </header>
     )
 }

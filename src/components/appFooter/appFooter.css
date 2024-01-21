@@ -4,7 +4,24 @@ footer {
     height: 50px;
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 footer > p {
     margin: auto;
+    font-size: 18px;
+}
+
+@media(max-width: 450px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer > p {
+        font-size: small;
+    }
+}
+@media(max-width: 300px) {
+    footer > p {
+        font-size: x-small;
+    }
 }

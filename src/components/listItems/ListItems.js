@@ -53,11 +53,11 @@ const ListItems = (props) => {
             return (
                 <Link 
                     to={`/catalog/${props.name}/${item.vendorCode}`}
-                    tabIndex={0}>
+                    tabIndex={0}
+                    className="listItems__li">
                     <li 
                         key={item.vendorCode}
-                        tabIndex={0}
-                        className="listItems__li">
+                        tabIndex={0}>
                             <h3>{item.title}</h3>
                             <img src={`${require(`../../recources/img/${props.name}Img/${item.img}_main.jpg`)}`} alt={item.altimg} className="listItems__img"/>
                             <p>Цвет: {item.color}</p>
@@ -88,12 +88,10 @@ const ListItems = (props) => {
                 />
                 <title>SoulWhale {props.name}</title>
             </Helmet>
-            <div className="org__wrapper">
-                <Link to={`/catalog`}>
-                    <button className="back">Назад</button>
-                </Link>
-                <Filter setFilter={setFilter}/>
-            </div>
+            <Link to={`/catalog`}>
+                <button className="listItems__back">Назад</button>
+            </Link>
+            <Filter setFilter={setFilter}/>
             {items}
             <div className="wrapper">
                 <button 
