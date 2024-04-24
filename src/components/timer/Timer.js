@@ -36,7 +36,7 @@ const Timer = (props) => {
     };
 
     return (
-        <div className="timer">
+        <div className="timer" style={timeLeft <= 0 ? {display: 'none'} : null}>
             <h2>Успей до окончания акции! <br/>Осталось всего:</h2>
             <div className="timer__wrapper">
                 <div className="timer__element">
